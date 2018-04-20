@@ -32,25 +32,13 @@
             this.SourceLabel = new MetroFramework.Controls.MetroLabel();
             this.TargetLabel = new MetroFramework.Controls.MetroLabel();
             this.DatabaseDetailsGroupBox = new System.Windows.Forms.GroupBox();
-            this.SourceServerNameLabel = new MetroFramework.Controls.MetroLabel();
-            this.SourceDatabaseName = new MetroFramework.Controls.MetroLabel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TargetServerNameLabel = new MetroFramework.Controls.MetroLabel();
             this.TargetDatabaseNameLabel = new MetroFramework.Controls.MetroLabel();
+            this.SourceServerNameLabel = new MetroFramework.Controls.MetroLabel();
+            this.SourceDatabaseName = new MetroFramework.Controls.MetroLabel();
             this.DatabaseConfigurationGroupBox = new System.Windows.Forms.GroupBox();
-            this.SourceConnectionLabel = new MetroFramework.Controls.MetroLabel();
-            this.SourceServerLabel = new MetroFramework.Controls.MetroLabel();
-            this.SourceServerComboBox = new MetroFramework.Controls.MetroComboBox();
-            this.SourceUsernameLabel = new MetroFramework.Controls.MetroLabel();
-            this.SourcePasswordLabel = new MetroFramework.Controls.MetroLabel();
-            this.SourceUsernameTextBox = new MetroFramework.Controls.MetroTextBox();
-            this.SourcePasswordBox = new MetroFramework.Controls.MetroTextBox();
-            this.SourceTestConnection = new MetroFramework.Controls.MetroButton();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.CompareTablesButton = new MetroFramework.Controls.MetroButton();
-            this.SourceDatabaseComboBox = new MetroFramework.Controls.MetroComboBox();
-            this.SourceTableComboBox = new MetroFramework.Controls.MetroComboBox();
             this.TargetTableComboBox = new MetroFramework.Controls.MetroComboBox();
             this.TargetDatabaseComboBox = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
@@ -62,12 +50,24 @@
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.TargetServerComboBox = new MetroFramework.Controls.MetroComboBox();
             this.TargetServerLabel = new MetroFramework.Controls.MetroLabel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.SourceTableComboBox = new MetroFramework.Controls.MetroComboBox();
+            this.SourceDatabaseComboBox = new MetroFramework.Controls.MetroComboBox();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.SourceTestConnection = new MetroFramework.Controls.MetroButton();
+            this.SourcePasswordBox = new MetroFramework.Controls.MetroTextBox();
+            this.SourceUsernameTextBox = new MetroFramework.Controls.MetroTextBox();
+            this.SourcePasswordLabel = new MetroFramework.Controls.MetroLabel();
+            this.SourceUsernameLabel = new MetroFramework.Controls.MetroLabel();
+            this.SourceServerComboBox = new MetroFramework.Controls.MetroComboBox();
+            this.SourceServerLabel = new MetroFramework.Controls.MetroLabel();
+            this.SourceConnectionLabel = new MetroFramework.Controls.MetroLabel();
+            this.CompareTablesButton = new MetroFramework.Controls.MetroButton();
             this.DatabaseDetailsGroupBox.SuspendLayout();
-            this.DatabaseConfigurationGroupBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.DatabaseConfigurationGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // SourceLabel
@@ -108,23 +108,23 @@
             this.DatabaseDetailsGroupBox.TabIndex = 2;
             this.DatabaseDetailsGroupBox.TabStop = false;
             // 
-            // SourceServerNameLabel
+            // pictureBox2
             // 
-            this.SourceServerNameLabel.AutoSize = true;
-            this.SourceServerNameLabel.Location = new System.Drawing.Point(57, 83);
-            this.SourceServerNameLabel.Name = "SourceServerNameLabel";
-            this.SourceServerNameLabel.Size = new System.Drawing.Size(81, 19);
-            this.SourceServerNameLabel.TabIndex = 3;
-            this.SourceServerNameLabel.Text = "metroLabel1";
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(6, 77);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(48, 53);
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
             // 
-            // SourceDatabaseName
+            // pictureBox1
             // 
-            this.SourceDatabaseName.AutoSize = true;
-            this.SourceDatabaseName.Location = new System.Drawing.Point(57, 102);
-            this.SourceDatabaseName.Name = "SourceDatabaseName";
-            this.SourceDatabaseName.Size = new System.Drawing.Size(83, 19);
-            this.SourceDatabaseName.TabIndex = 4;
-            this.SourceDatabaseName.Text = "metroLabel2";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1002, 77);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 53);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
             // 
             // TargetServerNameLabel
             // 
@@ -143,6 +143,25 @@
             this.TargetDatabaseNameLabel.Size = new System.Drawing.Size(83, 19);
             this.TargetDatabaseNameLabel.TabIndex = 6;
             this.TargetDatabaseNameLabel.Text = "metroLabel2";
+            // 
+            // SourceServerNameLabel
+            // 
+            this.SourceServerNameLabel.AutoSize = true;
+            this.SourceServerNameLabel.Location = new System.Drawing.Point(57, 83);
+            this.SourceServerNameLabel.Name = "SourceServerNameLabel";
+            this.SourceServerNameLabel.Size = new System.Drawing.Size(81, 19);
+            this.SourceServerNameLabel.TabIndex = 3;
+            this.SourceServerNameLabel.Text = "metroLabel1";
+            this.SourceServerNameLabel.Click += new System.EventHandler(this.SourceServerNameLabel_Click);
+            // 
+            // SourceDatabaseName
+            // 
+            this.SourceDatabaseName.AutoSize = true;
+            this.SourceDatabaseName.Location = new System.Drawing.Point(57, 102);
+            this.SourceDatabaseName.Name = "SourceDatabaseName";
+            this.SourceDatabaseName.Size = new System.Drawing.Size(83, 19);
+            this.SourceDatabaseName.TabIndex = 4;
+            this.SourceDatabaseName.Text = "metroLabel2";
             // 
             // DatabaseConfigurationGroupBox
             // 
@@ -175,186 +194,7 @@
             this.DatabaseConfigurationGroupBox.Size = new System.Drawing.Size(1075, 382);
             this.DatabaseConfigurationGroupBox.TabIndex = 3;
             this.DatabaseConfigurationGroupBox.TabStop = false;
-            // 
-            // SourceConnectionLabel
-            // 
-            this.SourceConnectionLabel.AutoSize = true;
-            this.SourceConnectionLabel.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.SourceConnectionLabel.Location = new System.Drawing.Point(6, 26);
-            this.SourceConnectionLabel.Name = "SourceConnectionLabel";
-            this.SourceConnectionLabel.Size = new System.Drawing.Size(211, 25);
-            this.SourceConnectionLabel.TabIndex = 0;
-            this.SourceConnectionLabel.Text = "Source Connection Details";
-            // 
-            // SourceServerLabel
-            // 
-            this.SourceServerLabel.AutoSize = true;
-            this.SourceServerLabel.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.SourceServerLabel.Location = new System.Drawing.Point(16, 81);
-            this.SourceServerLabel.Name = "SourceServerLabel";
-            this.SourceServerLabel.Size = new System.Drawing.Size(60, 25);
-            this.SourceServerLabel.TabIndex = 1;
-            this.SourceServerLabel.Text = "Server";
-            // 
-            // SourceServerComboBox
-            // 
-            this.SourceServerComboBox.FontSize = MetroFramework.MetroComboBoxSize.Small;
-            this.SourceServerComboBox.FormattingEnabled = true;
-            this.SourceServerComboBox.ItemHeight = 19;
-            this.SourceServerComboBox.Location = new System.Drawing.Point(40, 109);
-            this.SourceServerComboBox.Name = "SourceServerComboBox";
-            this.SourceServerComboBox.Size = new System.Drawing.Size(384, 25);
-            this.SourceServerComboBox.TabIndex = 2;
-            this.SourceServerComboBox.UseSelectable = true;
-            this.SourceServerComboBox.SelectedIndexChanged += new System.EventHandler(this.SourceServerComboBox_SelectedIndexChanged);
-            // 
-            // SourceUsernameLabel
-            // 
-            this.SourceUsernameLabel.AutoSize = true;
-            this.SourceUsernameLabel.Location = new System.Drawing.Point(40, 144);
-            this.SourceUsernameLabel.Name = "SourceUsernameLabel";
-            this.SourceUsernameLabel.Size = new System.Drawing.Size(68, 19);
-            this.SourceUsernameLabel.TabIndex = 3;
-            this.SourceUsernameLabel.Text = "Username";
-            // 
-            // SourcePasswordLabel
-            // 
-            this.SourcePasswordLabel.AutoSize = true;
-            this.SourcePasswordLabel.Location = new System.Drawing.Point(40, 173);
-            this.SourcePasswordLabel.Name = "SourcePasswordLabel";
-            this.SourcePasswordLabel.Size = new System.Drawing.Size(63, 19);
-            this.SourcePasswordLabel.TabIndex = 4;
-            this.SourcePasswordLabel.Text = "Password";
-            // 
-            // SourceUsernameTextBox
-            // 
-            // 
-            // 
-            // 
-            this.SourceUsernameTextBox.CustomButton.Image = null;
-            this.SourceUsernameTextBox.CustomButton.Location = new System.Drawing.Point(288, 1);
-            this.SourceUsernameTextBox.CustomButton.Name = "";
-            this.SourceUsernameTextBox.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.SourceUsernameTextBox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.SourceUsernameTextBox.CustomButton.TabIndex = 1;
-            this.SourceUsernameTextBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.SourceUsernameTextBox.CustomButton.UseSelectable = true;
-            this.SourceUsernameTextBox.CustomButton.Visible = false;
-            this.SourceUsernameTextBox.Lines = new string[0];
-            this.SourceUsernameTextBox.Location = new System.Drawing.Point(114, 144);
-            this.SourceUsernameTextBox.MaxLength = 32767;
-            this.SourceUsernameTextBox.Name = "SourceUsernameTextBox";
-            this.SourceUsernameTextBox.PasswordChar = '\0';
-            this.SourceUsernameTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.SourceUsernameTextBox.SelectedText = "";
-            this.SourceUsernameTextBox.SelectionLength = 0;
-            this.SourceUsernameTextBox.SelectionStart = 0;
-            this.SourceUsernameTextBox.ShortcutsEnabled = true;
-            this.SourceUsernameTextBox.Size = new System.Drawing.Size(310, 23);
-            this.SourceUsernameTextBox.TabIndex = 5;
-            this.SourceUsernameTextBox.UseSelectable = true;
-            this.SourceUsernameTextBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.SourceUsernameTextBox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // SourcePasswordBox
-            // 
-            // 
-            // 
-            // 
-            this.SourcePasswordBox.CustomButton.Image = null;
-            this.SourcePasswordBox.CustomButton.Location = new System.Drawing.Point(288, 1);
-            this.SourcePasswordBox.CustomButton.Name = "";
-            this.SourcePasswordBox.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.SourcePasswordBox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.SourcePasswordBox.CustomButton.TabIndex = 1;
-            this.SourcePasswordBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.SourcePasswordBox.CustomButton.UseSelectable = true;
-            this.SourcePasswordBox.CustomButton.Visible = false;
-            this.SourcePasswordBox.Lines = new string[0];
-            this.SourcePasswordBox.Location = new System.Drawing.Point(114, 173);
-            this.SourcePasswordBox.MaxLength = 32767;
-            this.SourcePasswordBox.Name = "SourcePasswordBox";
-            this.SourcePasswordBox.PasswordChar = '\0';
-            this.SourcePasswordBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.SourcePasswordBox.SelectedText = "";
-            this.SourcePasswordBox.SelectionLength = 0;
-            this.SourcePasswordBox.SelectionStart = 0;
-            this.SourcePasswordBox.ShortcutsEnabled = true;
-            this.SourcePasswordBox.Size = new System.Drawing.Size(310, 23);
-            this.SourcePasswordBox.TabIndex = 6;
-            this.SourcePasswordBox.UseSelectable = true;
-            this.SourcePasswordBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.SourcePasswordBox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // SourceTestConnection
-            // 
-            this.SourceTestConnection.Location = new System.Drawing.Point(114, 202);
-            this.SourceTestConnection.Name = "SourceTestConnection";
-            this.SourceTestConnection.Size = new System.Drawing.Size(103, 23);
-            this.SourceTestConnection.TabIndex = 7;
-            this.SourceTestConnection.Text = "Test Connection";
-            this.SourceTestConnection.UseSelectable = true;
-            // 
-            // metroLabel1
-            // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel1.Location = new System.Drawing.Point(619, 26);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(204, 25);
-            this.metroLabel1.TabIndex = 8;
-            this.metroLabel1.Text = "Target Connection Details";
-            // 
-            // metroLabel2
-            // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel2.Location = new System.Drawing.Point(16, 241);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(82, 25);
-            this.metroLabel2.TabIndex = 9;
-            this.metroLabel2.Text = "Database";
-            // 
-            // metroLabel3
-            // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel3.Location = new System.Drawing.Point(16, 297);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(50, 25);
-            this.metroLabel3.TabIndex = 10;
-            this.metroLabel3.Text = "Table";
-            // 
-            // CompareTablesButton
-            // 
-            this.CompareTablesButton.Location = new System.Drawing.Point(934, 593);
-            this.CompareTablesButton.Name = "CompareTablesButton";
-            this.CompareTablesButton.Size = new System.Drawing.Size(164, 33);
-            this.CompareTablesButton.TabIndex = 4;
-            this.CompareTablesButton.Text = "Compare Tables";
-            this.CompareTablesButton.UseSelectable = true;
-            // 
-            // SourceDatabaseComboBox
-            // 
-            this.SourceDatabaseComboBox.FontSize = MetroFramework.MetroComboBoxSize.Small;
-            this.SourceDatabaseComboBox.FormattingEnabled = true;
-            this.SourceDatabaseComboBox.ItemHeight = 19;
-            this.SourceDatabaseComboBox.Location = new System.Drawing.Point(40, 269);
-            this.SourceDatabaseComboBox.Name = "SourceDatabaseComboBox";
-            this.SourceDatabaseComboBox.Size = new System.Drawing.Size(384, 25);
-            this.SourceDatabaseComboBox.TabIndex = 11;
-            this.SourceDatabaseComboBox.UseSelectable = true;
-            // 
-            // SourceTableComboBox
-            // 
-            this.SourceTableComboBox.FontSize = MetroFramework.MetroComboBoxSize.Small;
-            this.SourceTableComboBox.FormattingEnabled = true;
-            this.SourceTableComboBox.ItemHeight = 19;
-            this.SourceTableComboBox.Location = new System.Drawing.Point(40, 325);
-            this.SourceTableComboBox.Name = "SourceTableComboBox";
-            this.SourceTableComboBox.Size = new System.Drawing.Size(384, 25);
-            this.SourceTableComboBox.TabIndex = 12;
-            this.SourceTableComboBox.UseSelectable = true;
+            this.DatabaseConfigurationGroupBox.Enter += new System.EventHandler(this.DatabaseConfigurationGroupBox_Enter);
             // 
             // TargetTableComboBox
             // 
@@ -506,23 +346,184 @@
             this.TargetServerLabel.TabIndex = 13;
             this.TargetServerLabel.Text = "Server";
             // 
-            // pictureBox1
+            // SourceTableComboBox
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1002, 77);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 53);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.SourceTableComboBox.FontSize = MetroFramework.MetroComboBoxSize.Small;
+            this.SourceTableComboBox.FormattingEnabled = true;
+            this.SourceTableComboBox.ItemHeight = 19;
+            this.SourceTableComboBox.Location = new System.Drawing.Point(40, 325);
+            this.SourceTableComboBox.Name = "SourceTableComboBox";
+            this.SourceTableComboBox.Size = new System.Drawing.Size(384, 25);
+            this.SourceTableComboBox.TabIndex = 12;
+            this.SourceTableComboBox.UseSelectable = true;
             // 
-            // pictureBox2
+            // SourceDatabaseComboBox
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(6, 77);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(48, 53);
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
+            this.SourceDatabaseComboBox.FontSize = MetroFramework.MetroComboBoxSize.Small;
+            this.SourceDatabaseComboBox.FormattingEnabled = true;
+            this.SourceDatabaseComboBox.ItemHeight = 19;
+            this.SourceDatabaseComboBox.Location = new System.Drawing.Point(40, 269);
+            this.SourceDatabaseComboBox.Name = "SourceDatabaseComboBox";
+            this.SourceDatabaseComboBox.Size = new System.Drawing.Size(384, 25);
+            this.SourceDatabaseComboBox.TabIndex = 11;
+            this.SourceDatabaseComboBox.UseSelectable = true;
+            // 
+            // metroLabel3
+            // 
+            this.metroLabel3.AutoSize = true;
+            this.metroLabel3.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel3.Location = new System.Drawing.Point(16, 297);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(50, 25);
+            this.metroLabel3.TabIndex = 10;
+            this.metroLabel3.Text = "Table";
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel2.Location = new System.Drawing.Point(16, 241);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(82, 25);
+            this.metroLabel2.TabIndex = 9;
+            this.metroLabel2.Text = "Database";
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel1.Location = new System.Drawing.Point(619, 26);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(204, 25);
+            this.metroLabel1.TabIndex = 8;
+            this.metroLabel1.Text = "Target Connection Details";
+            // 
+            // SourceTestConnection
+            // 
+            this.SourceTestConnection.Location = new System.Drawing.Point(114, 202);
+            this.SourceTestConnection.Name = "SourceTestConnection";
+            this.SourceTestConnection.Size = new System.Drawing.Size(103, 23);
+            this.SourceTestConnection.TabIndex = 7;
+            this.SourceTestConnection.Text = "Test Connection";
+            this.SourceTestConnection.UseSelectable = true;
+            // 
+            // SourcePasswordBox
+            // 
+            // 
+            // 
+            // 
+            this.SourcePasswordBox.CustomButton.Image = null;
+            this.SourcePasswordBox.CustomButton.Location = new System.Drawing.Point(288, 1);
+            this.SourcePasswordBox.CustomButton.Name = "";
+            this.SourcePasswordBox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.SourcePasswordBox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.SourcePasswordBox.CustomButton.TabIndex = 1;
+            this.SourcePasswordBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.SourcePasswordBox.CustomButton.UseSelectable = true;
+            this.SourcePasswordBox.CustomButton.Visible = false;
+            this.SourcePasswordBox.Lines = new string[0];
+            this.SourcePasswordBox.Location = new System.Drawing.Point(114, 173);
+            this.SourcePasswordBox.MaxLength = 32767;
+            this.SourcePasswordBox.Name = "SourcePasswordBox";
+            this.SourcePasswordBox.PasswordChar = '\0';
+            this.SourcePasswordBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.SourcePasswordBox.SelectedText = "";
+            this.SourcePasswordBox.SelectionLength = 0;
+            this.SourcePasswordBox.SelectionStart = 0;
+            this.SourcePasswordBox.ShortcutsEnabled = true;
+            this.SourcePasswordBox.Size = new System.Drawing.Size(310, 23);
+            this.SourcePasswordBox.TabIndex = 6;
+            this.SourcePasswordBox.UseSelectable = true;
+            this.SourcePasswordBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.SourcePasswordBox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // SourceUsernameTextBox
+            // 
+            // 
+            // 
+            // 
+            this.SourceUsernameTextBox.CustomButton.Image = null;
+            this.SourceUsernameTextBox.CustomButton.Location = new System.Drawing.Point(288, 1);
+            this.SourceUsernameTextBox.CustomButton.Name = "";
+            this.SourceUsernameTextBox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.SourceUsernameTextBox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.SourceUsernameTextBox.CustomButton.TabIndex = 1;
+            this.SourceUsernameTextBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.SourceUsernameTextBox.CustomButton.UseSelectable = true;
+            this.SourceUsernameTextBox.CustomButton.Visible = false;
+            this.SourceUsernameTextBox.Lines = new string[0];
+            this.SourceUsernameTextBox.Location = new System.Drawing.Point(114, 144);
+            this.SourceUsernameTextBox.MaxLength = 32767;
+            this.SourceUsernameTextBox.Name = "SourceUsernameTextBox";
+            this.SourceUsernameTextBox.PasswordChar = '\0';
+            this.SourceUsernameTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.SourceUsernameTextBox.SelectedText = "";
+            this.SourceUsernameTextBox.SelectionLength = 0;
+            this.SourceUsernameTextBox.SelectionStart = 0;
+            this.SourceUsernameTextBox.ShortcutsEnabled = true;
+            this.SourceUsernameTextBox.Size = new System.Drawing.Size(310, 23);
+            this.SourceUsernameTextBox.TabIndex = 5;
+            this.SourceUsernameTextBox.UseSelectable = true;
+            this.SourceUsernameTextBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.SourceUsernameTextBox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // SourcePasswordLabel
+            // 
+            this.SourcePasswordLabel.AutoSize = true;
+            this.SourcePasswordLabel.Location = new System.Drawing.Point(40, 173);
+            this.SourcePasswordLabel.Name = "SourcePasswordLabel";
+            this.SourcePasswordLabel.Size = new System.Drawing.Size(63, 19);
+            this.SourcePasswordLabel.TabIndex = 4;
+            this.SourcePasswordLabel.Text = "Password";
+            // 
+            // SourceUsernameLabel
+            // 
+            this.SourceUsernameLabel.AutoSize = true;
+            this.SourceUsernameLabel.Location = new System.Drawing.Point(40, 144);
+            this.SourceUsernameLabel.Name = "SourceUsernameLabel";
+            this.SourceUsernameLabel.Size = new System.Drawing.Size(68, 19);
+            this.SourceUsernameLabel.TabIndex = 3;
+            this.SourceUsernameLabel.Text = "Username";
+            // 
+            // SourceServerComboBox
+            // 
+            this.SourceServerComboBox.FontSize = MetroFramework.MetroComboBoxSize.Small;
+            this.SourceServerComboBox.FormattingEnabled = true;
+            this.SourceServerComboBox.ItemHeight = 19;
+            this.SourceServerComboBox.Location = new System.Drawing.Point(40, 109);
+            this.SourceServerComboBox.Name = "SourceServerComboBox";
+            this.SourceServerComboBox.Size = new System.Drawing.Size(384, 25);
+            this.SourceServerComboBox.TabIndex = 2;
+            this.SourceServerComboBox.UseSelectable = true;
+            // 
+            // SourceServerLabel
+            // 
+            this.SourceServerLabel.AutoSize = true;
+            this.SourceServerLabel.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.SourceServerLabel.Location = new System.Drawing.Point(16, 81);
+            this.SourceServerLabel.Name = "SourceServerLabel";
+            this.SourceServerLabel.Size = new System.Drawing.Size(60, 25);
+            this.SourceServerLabel.TabIndex = 1;
+            this.SourceServerLabel.Text = "Server";
+            // 
+            // SourceConnectionLabel
+            // 
+            this.SourceConnectionLabel.AutoSize = true;
+            this.SourceConnectionLabel.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.SourceConnectionLabel.Location = new System.Drawing.Point(6, 26);
+            this.SourceConnectionLabel.Name = "SourceConnectionLabel";
+            this.SourceConnectionLabel.Size = new System.Drawing.Size(211, 25);
+            this.SourceConnectionLabel.TabIndex = 0;
+            this.SourceConnectionLabel.Text = "Source Connection Details";
+            // 
+            // CompareTablesButton
+            // 
+            this.CompareTablesButton.Location = new System.Drawing.Point(934, 593);
+            this.CompareTablesButton.Name = "CompareTablesButton";
+            this.CompareTablesButton.Size = new System.Drawing.Size(164, 33);
+            this.CompareTablesButton.TabIndex = 4;
+            this.CompareTablesButton.Text = "Compare Tables";
+            this.CompareTablesButton.UseSelectable = true;
             // 
             // ConfigurationForm
             // 
@@ -538,10 +539,10 @@
             this.Load += new System.EventHandler(this.ConfigurationForm_Load);
             this.DatabaseDetailsGroupBox.ResumeLayout(false);
             this.DatabaseDetailsGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.DatabaseConfigurationGroupBox.ResumeLayout(false);
             this.DatabaseConfigurationGroupBox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -21,16 +21,33 @@ namespace SQLTableComparison
 
         private void ConfigurationForm_Load(object sender, EventArgs e)
         {
-            SqlDataSourceEnumerator sqlDataSource = SqlDataSourceEnumerator.Instance;
-            System.Data.DataTable table = sqlDataSource.GetDataSources();
-     
+            DataTable servers = SqlDataSourceEnumerator.Instance.GetDataSources();
+            SourceServerComboBox.Items.Add("Test");
+            foreach (DataRow test in servers.Rows)
+            {
+                foreach (DataColumn item in servers.Columns)
+                {
+                    SourceServerComboBox.Items.Add(test[servers.Columns["Server Name"]].ToString());
+                }
+            }
         }
 
-        private void SourceServerComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        private void SourceSesrverComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
-        
-    
+            SourceServerNameLabel.Text = SourceServerComboBox.Text;
+
+        }
+
+        private void DatabaseConfigurationGroupBox_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SourceServerNameLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
+
+
